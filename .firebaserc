@@ -1,0 +1,21 @@
+{
+  "projects": {
+    "default": "carsales123ca3"
+  },
+  "targets": {
+    "angualr-project-89d83": {
+      "hosting": {
+        "salescarapp": [
+          "angualr-project-89d83"
+        ]
+      }
+    },
+    "carsales123ca3": {
+      "hosting": {
+        "salescarapp": [
+          "carsales123ca3"
+        ]
+      }
+    }
+  }
+}

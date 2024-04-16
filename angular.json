@@ -93,6 +93,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "salescarapp:build:production",
+              "serveTarget": "salescarapp:serve:production"
+            },
+            "development": {
+              "buildTarget": "salescarapp:build:development",
+              "serveTarget": "salescarapp:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
